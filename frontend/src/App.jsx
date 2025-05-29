@@ -8,6 +8,7 @@ import DisplayItem from './components/custom/DisplayItem.jsx';
 import FeaturesSection from './components/custom/FeaturesSection.jsx';
 import TestimonialsSection from './components/custom/TestimonialsSection.jsx';
 import LowerSection from './components/custom/LowerSection.jsx';
+import Footer from './components/custom/Footer.jsx';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <FeaturesSection />
       <TestimonialsSection />
       <LowerSection />
+      <Footer />
     </div>
   )
 }
