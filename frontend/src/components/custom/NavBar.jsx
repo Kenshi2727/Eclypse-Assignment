@@ -22,7 +22,7 @@ export default function Navbar() {
                 <a href="#" className="text-white text-mdfont-medium hover:text-gray-300 transition-colors">
                     Cart
                 </a>
-                <button className="w-[111.38px] h-[53.02px] top-[12px] left-[1278px] rounded-[8.71px] pt-[14.51px] pr-[38.69px] pb-[14.51px] pl-[38.69px] bg-white hover:bg-[#f24e1e] text-black hover:text-white transition-colors duration-300 font-medium">
+                <button className="w-[111.38px] h-[53.02px] top-[12px] left-[1278px] rounded-[8.71px] pt-[14.51px] pr-[38.69px] pb-[14.51px] pl-[38.69px] bg-white hover:bg-[#f24e1e] hover:cursor-pointer text-black hover:text-white transition-colors duration-300 font-medium">
                     Buy
                 </button>
             </div>

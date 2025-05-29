@@ -3,6 +3,11 @@ import NavBar from './components/custom/NavBar.jsx';
 import HeroSection from './components/custom/HeroSection.jsx';
 import DescriptionSection from './components/custom/DescriptionSection.jsx';
 import BrandingSection from './components/custom/BrandingSection.jsx';
+import Heading from './components/custom/Heading.jsx';
+import DisplayItem from './components/custom/DisplayItem.jsx';
+import FeaturesSection from './components/custom/FeaturesSection.jsx';
+import TestimonialsSection from './components/custom/TestimonialsSection.jsx';
+import LowerSection from './components/custom/LowerSection.jsx';
 
 function App() {
 
@@ -13,6 +18,11 @@ function App() {
       <HeroSection />
       <DescriptionSection />
       <BrandingSection />
+      <Heading />
+      <DisplayItem />
+      <FeaturesSection />
+      <TestimonialsSection />
+      <LowerSection />
     </div>
   )
 }
