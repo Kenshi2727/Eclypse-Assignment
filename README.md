@@ -1,4 +1,5 @@
 # Eclypse Assignment
+## Desktop View Only
 
 A full-stack web application comprising a React-based frontend and an Express.js backend. The frontend is deployed on Vercel, while the backend is hosted on Render.
 
