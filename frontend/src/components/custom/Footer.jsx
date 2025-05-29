@@ -55,9 +55,11 @@ function Footer() {
                 <div className='w-[341.33px] h-[167px] gap-[32px]'></div>
                 <div className='w-[341.33px] h-[167px] flex justify-between'>
                     <div className='w-full flex justify-end'>
-                        <div className='w-10 h-10 ease-out duration-300 bg-[#FFFFFF] rounded-full flex justify-center items-center cursor-pointer hover:bg-[#f24e1e] group'>
-                            <ArrowUp className='text-black group-hover:text-white' />
-                        </div>
+                        <a href="#top" className='transition ease-out duration-300'>
+                            <div className='w-10 h-10 ease-out duration-300 bg-[#FFFFFF] rounded-full flex justify-center items-center cursor-pointer hover:bg-[#f24e1e] group'>
+                                <ArrowUp className='text-black group-hover:text-white' />
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

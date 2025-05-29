@@ -4,7 +4,7 @@ function HeroSection() {
     return (
         <div className='text-white pt-[197px] h-[883px] flex justify-center'>
             <div className='relative w-[1339px]'>
-                <header className='w-full h-[129px] absolute top-0 left-0'>
+                <header id="hero" className='w-full h-[129px] absolute top-0 left-0'>
                     <img src="Hero_header.svg" alt="hero-header" />
                     <div className='absolute bottom-0 right-0'>
                         <p>&copy; {new Date().getFullYear()}</p>

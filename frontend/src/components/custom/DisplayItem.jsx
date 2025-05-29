@@ -1,12 +1,13 @@
 import React from 'react'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function DisplayItem() {
     const [clicked, setClicked] = useState(false);
     const [activeSize, setActiveSize] = useState(null);
 
     return (
-        <div className='absolute top-[2850px] w-full h-[913px] grid grid-cols-2 text-black'>
+        <div className='absolute top-[2850px] w-full h-[913px] grid grid-rows-2 xl:grid-cols-2 text-black'>
             <div className=' h-full'>
                 <video
                     src="displayGif.mp4"
@@ -107,11 +108,13 @@ function DisplayItem() {
                             Add to Cart
                         </p>
                     </button>
-                    <button className='flex justify-center items-center w-[428px] h-[66px] rounded-[8.71px] hover:bg-[#f24e1e] hover:cursor-pointer py-[14.51px] gap-[24.18px] bg-black transition ease-out duration-300'>
-                        <p className='w-[34px] h-[24px] font-medium text-[19.35px] leading-[100%] tracking-[-0.02em] text-white'>
-                            Buy
-                        </p>
-                    </button>
+                    <Link to="/checkout">
+                        <button className='flex justify-center items-center w-[428px] h-[66px] rounded-[8.71px] hover:bg-[#f24e1e] hover:cursor-pointer py-[14.51px] gap-[24.18px] bg-black transition ease-out duration-300'>
+                            <p className='w-[34px] h-[24px] font-medium text-[19.35px] leading-[100%] tracking-[-0.02em] text-white'>
+                                Buy
+                            </p>
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

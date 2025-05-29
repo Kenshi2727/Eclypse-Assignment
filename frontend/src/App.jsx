@@ -9,22 +9,37 @@ import FeaturesSection from './components/custom/FeaturesSection.jsx';
 import TestimonialsSection from './components/custom/TestimonialsSection.jsx';
 import LowerSection from './components/custom/LowerSection.jsx';
 import Footer from './components/custom/Footer.jsx';
+import { Routes, Route } from 'react-router-dom';
+import Checkout from './components/custom/Checkout.jsx';
 
 function App() {
 
 
   return (
     <div className='style-text bg-[#070707] w-full min-h-screen scroll-smooth'>
-      <NavBar />
-      <HeroSection />
-      <DescriptionSection />
-      <BrandingSection />
-      <Heading />
-      <DisplayItem />
-      <FeaturesSection />
-      <TestimonialsSection />
-      <LowerSection />
-      <Footer />
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div id='top'>
+              <NavBar />
+              <HeroSection />
+              <DescriptionSection />
+              <BrandingSection />
+              <Heading />
+              <DisplayItem />
+              <FeaturesSection />
+              <TestimonialsSection />
+              <LowerSection />
+              <Footer />
+            </div>
+          }
+        />
+        <Route path="/checkout" element={<Checkout />} />
+      </Routes>
+
+
     </div>
   )
 }

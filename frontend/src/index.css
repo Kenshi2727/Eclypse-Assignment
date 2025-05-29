@@ -134,6 +134,10 @@ html, body {
   color: #ffffff;
 }
 
+.checkout{
+  background-color: #FFFFFF;
+}
+
 * {
   box-sizing: border-box;
 }
